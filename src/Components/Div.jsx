@@ -7,10 +7,10 @@ export default function Div({
   roll,
   department,
   salary,
-  index,
+  Key,
 }) {
   return (
-    <div key={index}>
+    <div key={Key}>
       <p>
         <span>Name: </span>
         {name}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Div from "./Div";
+import Buttons from "./Buttons";
 let resArr;
 let sortList = ["All", "Marketing", "HR", "IT", "Finance", "Asce", "Desc"];
 export default function Main() {
@@ -81,18 +82,12 @@ export default function Main() {
           <button>Submit</button>
         </form>
       </div>
-      <div id="sort" onClick={sortHandler}>
-        <button id="0">Show All Departments</button>
-        <button id="1">Show Marketing</button>
-        <button id="2">Show HR</button>
-        <button id="3">Show IT</button>
-        <button id="4">Show Finance</button>
-        <button id="5">Sort By Salary Ascending</button>
-        <button id="6">Sort By Salary Descending</button>
+      <div id="sort" onClick={sortHandler} key="harsh">
+        <Buttons />
       </div>
       <section>
         {emp.map((i, index) => (
-          <Div {...i} index={index} />
+          <Div {...i} Key={index} />
         ))}
       </section>
     </>
