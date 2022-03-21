@@ -1,0 +1,132 @@
+{
+  "employees": [
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "manager",
+      "department": "HR",
+      "salary": 100
+    },
+    {
+      "name": "Harsh Gajera",
+      "email": "harsh@gmail.com",
+      "gender": "male",
+      "roll": "people function",
+      "department": "HR",
+      "salary": 155
+    },
+    {
+      "name": "Deepa",
+      "email": "Deeepa@gmail.com",
+      "gender": "female",
+      "roll": "Account",
+      "department": "Marketing",
+      "salary": 205
+    },
+    {
+      "name": "allie Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "female",
+      "roll": "Saleswoman",
+      "department": "Marketing",
+      "salary": 85
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "engineer",
+      "department": "IT",
+      "salary": 70
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Tester",
+      "department": "IT",
+      "salary": 96
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Cashier",
+      "department": "Finance",
+      "salary": 101
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Just employee",
+      "department": "Finance",
+      "salary": 47
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "manager",
+      "department": "HR",
+      "salary": 1042
+    },
+    {
+      "name": "Harsh Gajera",
+      "email": "harsh@gmail.com",
+      "gender": "male",
+      "roll": "people function",
+      "department": "HR",
+      "salary": 55
+    },
+    {
+      "name": "Deepa",
+      "email": "Deeepa@gmail.com",
+      "gender": "female",
+      "roll": "Account",
+      "department": "Marketing",
+      "salary": 2105
+    },
+    {
+      "name": "allie Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "female",
+      "roll": "Saleswoman",
+      "department": "Marketing",
+      "salary": 845
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "engineer",
+      "department": "IT",
+      "salary": 700
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Tester",
+      "department": "IT",
+      "salary": 945
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Cashier",
+      "department": "Finance",
+      "salary": 1059
+    },
+    {
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "Just employee",
+      "department": "Finance",
+      "salary": 860
+    }
+  ]
+}
