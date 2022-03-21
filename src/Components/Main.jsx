@@ -54,7 +54,7 @@ export default function Main() {
     let gender = e.target.elements[2].value;
     let roll = e.target.elements[3].value;
     let department = e.target.elements[4].value;
-    let salary = e.target.elements[5].value;
+    let salary = +e.target.elements[5].value;
     let data = JSON.parse(localStorage.getItem("data"));
     data.push({ name, email, gender, roll, department, salary });
     localStorage.setItem("data", JSON.stringify(data));
