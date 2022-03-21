@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Div from "./Div";
 let resArr;
 let sortList = ["All", "Marketing", "HR", "IT", "Finance", "Asce", "Desc"];
 export default function Main() {
@@ -90,32 +91,8 @@ export default function Main() {
         <button id="6">Sort By Salary Descending</button>
       </div>
       <section>
-        {emp.map(({ name, email, gender, roll, department, salary }, index) => (
-          <div key={index}>
-            <p>
-              <span>Name: </span>
-              {name}
-            </p>
-            <p>
-              <span>Email: </span>
-              {email}
-            </p>
-            <p>
-              <span>Gender: </span>
-              {gender}
-            </p>
-            <p>
-              <span>Roll: </span>
-              {roll}
-            </p>
-            <p>
-              <span className="dept">Department:</span> {department}
-            </p>
-            <p>
-              <span>Salary: </span>
-              {salary}$
-            </p>
-          </div>
+        {emp.map((i, index) => (
+          <Div {...i} index={index} />
         ))}
       </section>
     </>
