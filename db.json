@@ -188,6 +188,24 @@
       "department": "Marketing",
       "salary": 1564274,
       "id": 21
+    },
+    {
+      "name": "Harsu",
+      "email": "harsh.gajera163@gmail.com",
+      "gender": "male",
+      "roll": "Engineer",
+      "department": "HR",
+      "salary": 1,
+      "id": 22
+    },
+    {
+      "name": "Harsh Gajera",
+      "email": "harsh.gajera@mindtree.com",
+      "gender": "male",
+      "roll": "Engineer",
+      "department": "HR",
+      "salary": 1564274,
+      "id": 23
     }
   ]
 }
