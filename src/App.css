@@ -21,7 +21,7 @@
 }
 
 #sort {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

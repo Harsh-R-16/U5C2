@@ -6,7 +6,8 @@
       "gender": "male",
       "roll": "manager",
       "department": "HR",
-      "salary": 100
+      "salary": 100,
+      "id": 1
     },
     {
       "name": "Harsh Gajera",
@@ -14,7 +15,8 @@
       "gender": "male",
       "roll": "people function",
       "department": "HR",
-      "salary": 155
+      "salary": 155,
+      "id": 2
     },
     {
       "name": "Deepa",
@@ -22,7 +24,8 @@
       "gender": "female",
       "roll": "Account",
       "department": "Marketing",
-      "salary": 205
+      "salary": 205,
+      "id": 3
     },
     {
       "name": "allie Smith",
@@ -30,7 +33,8 @@
       "gender": "female",
       "roll": "Saleswoman",
       "department": "Marketing",
-      "salary": 85
+      "salary": 85,
+      "id": 4
     },
     {
       "name": "John Smith",
@@ -38,7 +42,8 @@
       "gender": "male",
       "roll": "engineer",
       "department": "IT",
-      "salary": 70
+      "salary": 70,
+      "id": 5
     },
     {
       "name": "John Smith",
@@ -46,7 +51,8 @@
       "gender": "male",
       "roll": "Tester",
       "department": "IT",
-      "salary": 96
+      "salary": 96,
+      "id": 6
     },
     {
       "name": "John Smith",
@@ -54,7 +60,8 @@
       "gender": "male",
       "roll": "Cashier",
       "department": "Finance",
-      "salary": 101
+      "salary": 101,
+      "id": 7
     },
     {
       "name": "John Smith",
@@ -62,7 +69,8 @@
       "gender": "male",
       "roll": "Just employee",
       "department": "Finance",
-      "salary": 47
+      "salary": 47,
+      "id": 8
     },
     {
       "name": "John Smith",
@@ -70,7 +78,8 @@
       "gender": "male",
       "roll": "manager",
       "department": "HR",
-      "salary": 1042
+      "salary": 1042,
+      "id": 9
     },
     {
       "name": "Harsh Gajera",
@@ -78,7 +87,8 @@
       "gender": "male",
       "roll": "people function",
       "department": "HR",
-      "salary": 55
+      "salary": 55,
+      "id": 10
     },
     {
       "name": "Deepa",
@@ -86,7 +96,8 @@
       "gender": "female",
       "roll": "Account",
       "department": "Marketing",
-      "salary": 2105
+      "salary": 2105,
+      "id": 11
     },
     {
       "name": "allie Smith",
@@ -94,7 +105,8 @@
       "gender": "female",
       "roll": "Saleswoman",
       "department": "Marketing",
-      "salary": 845
+      "salary": 845,
+      "id": 12
     },
     {
       "name": "John Smith",
@@ -102,7 +114,8 @@
       "gender": "male",
       "roll": "engineer",
       "department": "IT",
-      "salary": 700
+      "salary": 700,
+      "id": 13
     },
     {
       "name": "John Smith",
@@ -110,7 +123,8 @@
       "gender": "male",
       "roll": "Tester",
       "department": "IT",
-      "salary": 945
+      "salary": 945,
+      "id": 14
     },
     {
       "name": "John Smith",
@@ -118,7 +132,8 @@
       "gender": "male",
       "roll": "Cashier",
       "department": "Finance",
-      "salary": 1059
+      "salary": 1059,
+      "id": 15
     },
     {
       "name": "John Smith",
@@ -126,7 +141,8 @@
       "gender": "male",
       "roll": "Just employee",
       "department": "Finance",
-      "salary": 860
+      "salary": 860,
+      "id": 16
     },
     {
       "name": "John Smith Hahhh",
@@ -135,7 +151,7 @@
       "roll": "engineer",
       "department": "IT",
       "salary": 700,
-      "id": 19
+      "id": 17
     },
     {
       "name": "Virat Kohli",
@@ -144,7 +160,7 @@
       "roll": "Marketing",
       "department": "Finance",
       "salary": 0,
-      "id": 22
+      "id": 18
     },
     {
       "name": "Rohit",
@@ -153,7 +169,7 @@
       "roll": "Marketing",
       "department": "Finance",
       "salary": 100,
-      "id": 23
+      "id": 19
     },
     {
       "name": "Atif Aslam",
@@ -162,7 +178,16 @@
       "roll": "Marketing",
       "department": "IT",
       "salary": 3000,
-      "id": 24
+      "id": 20
+    },
+    {
+      "name": "Harsu",
+      "email": "harsh.gajera163@gmail.com",
+      "gender": "male",
+      "roll": "Engineer",
+      "department": "Marketing",
+      "salary": 1564274,
+      "id": 21
     }
   ]
 }
