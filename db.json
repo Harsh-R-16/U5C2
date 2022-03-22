@@ -127,6 +127,42 @@
       "roll": "Just employee",
       "department": "Finance",
       "salary": 860
+    },
+    {
+      "name": "John Smith Hahhh",
+      "email": "johnsmith@gmail.com",
+      "gender": "male",
+      "roll": "engineer",
+      "department": "IT",
+      "salary": 700,
+      "id": 19
+    },
+    {
+      "name": "Virat Kohli",
+      "email": "india@india.com",
+      "gender": "male",
+      "roll": "Marketing",
+      "department": "Finance",
+      "salary": 0,
+      "id": 22
+    },
+    {
+      "name": "Rohit",
+      "email": "india@india.com",
+      "gender": "male",
+      "roll": "Marketing",
+      "department": "Finance",
+      "salary": 100,
+      "id": 23
+    },
+    {
+      "name": "Atif Aslam",
+      "email": "india@india.com",
+      "gender": "male",
+      "roll": "Marketing",
+      "department": "IT",
+      "salary": 3000,
+      "id": 24
     }
   ]
 }

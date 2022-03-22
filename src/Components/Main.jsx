@@ -56,10 +56,25 @@ export default function Main() {
     let department = e.target.elements[4].value;
     let salary = +e.target.elements[5].value;
     let data = JSON.parse(localStorage.getItem("data"));
+    let id;
     data.push({ name, email, gender, roll, department, salary });
     localStorage.setItem("data", JSON.stringify(data));
-    window.location.reload();
+    // window.location.reload();
     setEmp(data);
+    const params = { name, email, gender, roll, department, salary };
+    console.log(JSON.stringify(params));
+    const options = {
+      method: "POST",
+      body: JSON.stringify(params),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+    fetch("http://localhost:3000/employees", options)
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+      });
     // console.log(emp);
   }
   return (
@@ -78,7 +93,7 @@ export default function Main() {
           <label htmlFor="department">Enter Your Department:</label>
           <input type="text" id="department" required />
           <label htmlFor="salary">Enter Your Salary:</label>
-          <input type="text" id="salary" />
+          <input type="text" id="salary" required />
           <button>Submit</button>
         </form>
       </div>
