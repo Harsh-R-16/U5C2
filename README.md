@@ -2,7 +2,7 @@
 
 ## Link of Project
 
-https://json-server-harsh.netlify.app/
+https://u5c2-react-harsh.netlify.app/
 
 # Getting Started with Create React App
 
