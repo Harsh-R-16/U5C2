@@ -8,19 +8,25 @@ let sortList = ["All", "Marketing", "HR", "IT", "Finance", "asc", "desc"];
 export default function Employee() {
   let [emp, setEmp] = useState([]);
   useEffect(() => {
-    fetch("https://json-server-mocker-masai.herokuapp.com/tasks")
+    fetch("https://json-server-mocker-masai.herokuapp.com/restaurants")
       .then((res) => res.json())
       .then((res) => {
         // console.log(res);
-        if (res.length < 20) delAll();
-        else fetchData();
+        let bol = localStorage.getItem("bol");
+        if (bol == null) {
+          localStorage.setItem("bol", true);
+          delAll();
+        } else {
+          console.log("bol: " + bol);
+          fetchData();
+        }
       });
   }, []);
 
   function delAll() {
     console.log("Harsh");
-    for (let i = 1; i <= 20; i++) {
-      fetch(`https://json-server-mocker-masai.herokuapp.com/tasks/${i}`, {
+    for (let i = 1; i <= 30; i++) {
+      fetch(`https://json-server-mocker-masai.herokuapp.com/restaurants/${i}`, {
         method: "DELETE",
       })
         .then((res) => {
@@ -42,20 +48,21 @@ export default function Employee() {
         "Content-Type": "application/json",
       },
     };
-    fetch("https://json-server-mocker-masai.herokuapp.com/tasks", options)
+    fetch("https://json-server-mocker-masai.herokuapp.com/restaurants", options)
       .then((res) => res.json())
       .then((res) => {
         //   console.log(res);
-        if (i < 22) addAll(i + 1);
+        if (i < 24) addAll(i + 1);
       })
       .finally(() => {
         fetchData();
       });
   }
   function fetchData() {
-    fetch("https://json-server-mocker-masai.herokuapp.com/tasks")
+    fetch("https://json-server-mocker-masai.herokuapp.com/restaurants")
       .then((res) => res.json())
       .then((res) => {
+        console.log(res);
         setEmp(res);
       });
   }
@@ -70,7 +77,9 @@ export default function Employee() {
   };
   const sorting = (q) => {
     console.log(q);
-    fetch(`https://json-server-mocker-masai.herokuapp.com/tasks?_sort=salary`)
+    fetch(
+      `https://json-server-mocker-masai.herokuapp.com/restaurants?_sort=salary`
+    )
       .then((res) => res.json())
       .then((res) => {
         console.log(res);
@@ -83,7 +92,7 @@ export default function Employee() {
   };
   const fetchByDepartment = (q) => {
     fetch(
-      `https://json-server-mocker-masai.herokuapp.com/tasks?department=${q}`
+      `https://json-server-mocker-masai.herokuapp.com/restaurants?department=${q}`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -109,7 +118,7 @@ export default function Employee() {
         "Content-Type": "application/json",
       },
     };
-    fetch("https://json-server-mocker-masai.herokuapp.com/tasks", options)
+    fetch("https://json-server-mocker-masai.herokuapp.com/restaurants", options)
       .then((res) => res.json())
       .then((res) => {
         console.log(res);

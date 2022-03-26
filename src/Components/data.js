@@ -206,6 +206,24 @@ let data = [
     salary: 1564274,
     id: 23,
   },
+  {
+    name: "Harsh XYZ",
+    email: "harsh@mindtree.com",
+    gender: "male",
+    roll: "Engineer",
+    department: "Marketing",
+    salary: 1564274,
+    id: 24,
+  },
+  {
+    name: "Harsh",
+    email: "harsh@gajera.com",
+    gender: "male",
+    roll: "Engineer",
+    department: "IT",
+    salary: 15674,
+    id: 25,
+  },
 ];
 
 export { data };
