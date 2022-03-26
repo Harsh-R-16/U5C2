@@ -1,16 +1,16 @@
 import React from "react";
 
 export default function Div({
+  id,
   name,
   email,
   gender,
   roll,
   department,
   salary,
-  Key,
 }) {
   return (
-    <div key={Key}>
+    <div key={id}>
       <p>
         <span>Name: </span>
         {name}

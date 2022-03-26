@@ -9,6 +9,7 @@
   padding: 15px;
   margin: 10px auto;
   width: 650px;
+  max-width: 90%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 15px;
@@ -36,15 +37,15 @@
 }
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 50px 5%;
+  padding: 50px 2%;
 }
 section div {
   border: 1px solid #000;
   padding: 10px 20px;
-  width: 23%;
-  margin: 15px auto;
+  width: 330px;
+  margin: 15px 8px;
   /* width: fit-content; */
 }
 div p {

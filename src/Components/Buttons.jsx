@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Buttons() {
-  console.log("Buttons");
   return (
     <>
       <button id="0">Show All Departments</button>
