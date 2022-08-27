@@ -1,5 +1,3 @@
-# JSON SERVER
-
 ### Link of Project
 
 https://u5c2-react-harsh.netlify.app/
